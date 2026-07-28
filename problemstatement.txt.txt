@@ -1,0 +1,62 @@
+AI Voice Agent for English Academy
+
+Problem Statement
+
+Customer support teams at English language academies spend a significant amount of time answering repetitive questions about courses, schedules, pricing, and demo classes. Manual handling of these enquiries reduces efficiency and delays lead follow-up.
+
+Objective
+
+Design and develop an AI-powered voice agent that can:
+
+• Answer frequently asked questions about the academy.
+• Recommend suitable English programmes based on user needs.
+• Collect customer information for demo class bookings.
+• Automatically store customer details in Google Sheets.
+• Provide a natural and conversational voice experience.
+
+Project Workflow
+
+1. Knowledge Base
+- Create a knowledge base using FAQs and programme information.
+- Enable the agent to answer common customer queries accurately.
+
+2. Voice Agent
+- Build the conversational AI using ElevenLabs.
+- Design prompts to guide conversations naturally.
+
+3. User Interaction
+The agent should:
+- Greet the customer.
+- Answer course-related questions.
+- Collect:
+  - Name
+  - Phone Number
+  - Preferred Programme
+
+4. Workflow Automation
+- Trigger a webhook when a customer books a demo class.
+- Send the collected information to an n8n workflow.
+- Store the lead in Google Sheets.
+
+5. Output
+The system should:
+- Provide accurate responses.
+- Complete the booking process.
+- Confirm the booking to the customer.
+- Save customer details automatically.
+
+Technology Stack
+
+- ElevenLabs
+- n8n
+- Google Sheets
+- Webhooks
+- Prompt Engineering
+- Conversational AI
+
+Success Criteria
+
+- Correctly answers customer FAQs.
+- Successfully collects booking details.
+- Automatically updates Google Sheets.
+- Provides a smooth conversational experience.
